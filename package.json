@@ -1,0 +1,43 @@
+{
+  "name": "chat-app-node",
+  "version": "1.0.0",
+  "description": "Simple chat application build with Node JS, Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon app.js",
+    "prod": "cross-env NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/roydebasis/node-chat-app.git"
+  },
+  "keywords": [
+    "Node",
+    "Js",
+    "Express",
+    "MongoDb",
+    "Mongoose"
+  ],
+  "author": "Debasis Roy",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/roydebasis/node-chat-app/issues"
+  },
+  "homepage": "https://github.com/roydebasis/node-chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
