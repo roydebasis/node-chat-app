@@ -634,6 +634,7 @@ input[type="submit"]:active {
   height: 40px;
   border-radius: 100%;
   border: 2px solid var(--blue);
+  object-fit: cover;
 }
 
 #users-table tbody .name span {
